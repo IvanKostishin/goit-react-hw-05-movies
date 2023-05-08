@@ -1,0 +1,13 @@
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 0;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.backLink:hover {
+  color: rgb(95, 180, 173);
+}

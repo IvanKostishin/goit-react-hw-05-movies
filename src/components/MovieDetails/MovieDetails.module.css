@@ -1,0 +1,25 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 74px 25px;
+}
+
+.detailsLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieContainer {
+  display: flex;
+  gap: 25px;
+  flex-direction: row;
+}
+
+.movieDescription {
+  display: flex;
+}
+div[data-testid='three-circles-wrapper'] {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

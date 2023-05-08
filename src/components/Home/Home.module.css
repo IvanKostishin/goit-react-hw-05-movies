@@ -1,0 +1,47 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 74px 10px;
+}
+.title {
+  text-align: center;
+  color: rgb(236, 222, 222);
+}
+.moviesList {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 0px;
+  list-style: none;
+}
+.movieItem {
+  width: 250px;
+}
+.movieImage {
+  object-fit: cover;
+  max-width: 250px;
+  height: 375px;
+}
+.noImage {
+  object-fit: cover;
+  max-width: 250px;
+  height: 375px;
+}
+.movieItem:is(:hover, :focus) {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.16);
+}
+
+.movieTitle {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div[data-testid='three-circles-wrapper'] {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

@@ -1,0 +1,31 @@
+.container {
+  height: 100%;
+}
+.navigate {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: transparent;
+  border: none;
+}
+div[data-testid='three-circles-wrapper'] {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
